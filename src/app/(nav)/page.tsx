@@ -35,8 +35,8 @@ export default function HomePage() {
       </h2>
 
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
-        <Input label="Email" {...register("email")} />
-        <Input label="Password" {...register("password")} />
+        <Input label="Email" {...register("email")} type="text" />
+        <Input label="Password" {...register("password")} type="password" />
 
         <button
           type="submit"

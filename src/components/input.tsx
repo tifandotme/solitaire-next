@@ -12,7 +12,6 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
         className="relative block rounded-md border border-neutral-300 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600"
       >
         <input
-          type="text"
           ref={ref}
           id={label}
           className="peer border-none bg-transparent placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0"
